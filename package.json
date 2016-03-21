@@ -1,0 +1,31 @@
+{
+  "name": "barrage",
+  "version": "1.0.0",
+  "description": "jquery barrage plugin",
+  "main": "index.js",
+  "scripts": {
+    "start" : "webpack server",
+    "prepublish" : "webpack",
+    "test": "mocha",
+    "deploy" : "echo deploying;node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://pengxiulin@github.com/pengxiulin/barrage.git"
+  },
+  "keywords": [
+    "jQuery",
+    "barrage"
+  ],
+  "author": "pengxiulin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pengxiulin/barrage/issues"
+  },
+  "homepage": "https://github.com/pengxiulin/barrage#readme",
+  "dependencies": {
+    "mocha": "^2.4.5",
+    "vue": "^1.0.17",
+    "webpack": "^1.12.14"
+  }
+}
